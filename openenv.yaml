@@ -1,11 +1,15 @@
 tasks:
   - name: task_easy
-    grader: grade_easy
+    grader: env.graders:grade_easy
+
   - name: task_medium
-    grader: grade_medium
+    grader: env.graders:grade_medium
+
   - name: task_hard
-    grader: grade_hard
+    grader: env.graders:grade_hard
+
   - name: task_expert
-    grader: grade_expert
+    grader: env.graders:grade_expert
+
   - name: task_insane
-    grader: grade_insane
+    grader: env.graders:grade_insane
