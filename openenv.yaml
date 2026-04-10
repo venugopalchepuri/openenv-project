@@ -1,0 +1,11 @@
+tasks:
+  - name: task_easy
+    grader: grade_easy
+  - name: task_medium
+    grader: grade_medium
+  - name: task_hard
+    grader: grade_hard
+  - name: task_expert
+    grader: grade_expert
+  - name: task_insane
+    grader: grade_insane
