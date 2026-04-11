@@ -1,15 +1,17 @@
+version: "0.1"
+
 tasks:
-  - name: task_easy
+  - id: task_easy
     grader: env.graders:grade_easy
 
-  - name: task_medium
+  - id: task_medium
     grader: env.graders:grade_medium
 
-  - name: task_hard
+  - id: task_hard
     grader: env.graders:grade_hard
 
-  - name: task_expert
+  - id: task_expert
     grader: env.graders:grade_expert
 
-  - name: task_insane
+  - id: task_insane
     grader: env.graders:grade_insane
